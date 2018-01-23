@@ -8,11 +8,11 @@
   </property>
   <property>
     <name>dfs.namenode.servicerpc-address</name>
-    <value>gg-master-c2d6df06-fb03-4bad-9dd1-5f4afffd0197.c.gcp-se.internal:8022</value>
+    <value>master.internal:8022</value>
   </property>
   <property>
     <name>dfs.https.address</name>
-    <value>gg-master-c2d6df06-fb03-4bad-9dd1-5f4afffd0197.c.gcp-se.internal:50470</value>
+    <value>master.internal:50470</value>
   </property>
   <property>
     <name>dfs.https.port</name>
@@ -20,7 +20,7 @@
   </property>
   <property>
     <name>dfs.namenode.http-address</name>
-    <value>gg-master-c2d6df06-fb03-4bad-9dd1-5f4afffd0197.c.gcp-se.internal:50070</value>
+    <value>master.internal:50070</value>
   </property>
   <property>
     <name>dfs.replication</name>

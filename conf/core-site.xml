@@ -4,7 +4,7 @@
 <configuration>
   <property>
     <name>fs.defaultFS</name>
-    <value>hdfs://gg-master-c2d6df06-fb03-4bad-9dd1-5f4afffd0197.c.gcp-se.internal:8020</value>
+    <value>hdfs://master.internal:8020</value>
   </property>
   <property>
     <name>fs.trash.interval</name>

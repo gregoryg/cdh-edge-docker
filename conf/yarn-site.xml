@@ -12,27 +12,27 @@
   </property>
   <property>
     <name>yarn.resourcemanager.address</name>
-    <value>gg-master-c2d6df06-fb03-4bad-9dd1-5f4afffd0197.c.gcp-se.internal:8032</value>
+    <value>master.internal:8032</value>
   </property>
   <property>
     <name>yarn.resourcemanager.admin.address</name>
-    <value>gg-master-c2d6df06-fb03-4bad-9dd1-5f4afffd0197.c.gcp-se.internal:8033</value>
+    <value>master.internal:8033</value>
   </property>
   <property>
     <name>yarn.resourcemanager.scheduler.address</name>
-    <value>gg-master-c2d6df06-fb03-4bad-9dd1-5f4afffd0197.c.gcp-se.internal:8030</value>
+    <value>master.internal:8030</value>
   </property>
   <property>
     <name>yarn.resourcemanager.resource-tracker.address</name>
-    <value>gg-master-c2d6df06-fb03-4bad-9dd1-5f4afffd0197.c.gcp-se.internal:8031</value>
+    <value>master.internal:8031</value>
   </property>
   <property>
     <name>yarn.resourcemanager.webapp.address</name>
-    <value>gg-master-c2d6df06-fb03-4bad-9dd1-5f4afffd0197.c.gcp-se.internal:8088</value>
+    <value>master.internal:8088</value>
   </property>
   <property>
     <name>yarn.resourcemanager.webapp.https.address</name>
-    <value>gg-master-c2d6df06-fb03-4bad-9dd1-5f4afffd0197.c.gcp-se.internal:8090</value>
+    <value>master.internal:8090</value>
   </property>
   <property>
     <name>yarn.resourcemanager.client.thread-count</name>
