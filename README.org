@@ -1,0 +1,31 @@
+* Minimal Edge/Gateway node for Cloudera CDH 5
+
+This Dockerfile will build an image containing gateway libraries for HDFS, Hive and Spark
+for Cloudera CDH 5.13+
+
+First clone the github repository:
+#+BEGIN_SRC sh
+  git clone git@github.com:gregoryg/cdh-edge-docker.git
+#+END_SRC
+
+Copy any CDH config files from an existing node:
+#+BEGIN_SRC sh
+  scp $USER@<node-address>:/etc/hadoop/conf/'*' cdh-edge-docker/conf/
+#+END_SRC
+
+#+BEGIN_SRC sh
+  sudo docker build cdh-edge-docker
+#+END_SRC
+
+To get a Bash shell on the new image:
+#+BEGIN_SRC sh
+  sudo docker list images
+  sudo docker run -ti <imageid> bash
+#+END_SRC
+
+Test using the new instance
+#+BEGIN_SRC sh
+  hdfs dfs -ls /user/
+  spark-shell
+  beeline -u jdbc:hive2://<<hiveserver2 host>>:10000
+#+END_SRC
