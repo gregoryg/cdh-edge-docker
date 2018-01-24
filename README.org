@@ -1,4 +1,4 @@
-* COMMENT Minimal Edge/Gateway node for Cloudera CDH 5
+* Minimal Edge/Gateway node for Cloudera CDH 5
 
 This Dockerfile will build an image containing gateway libraries for HDFS, Hive and Spark
 for Cloudera CDH 5.13+
